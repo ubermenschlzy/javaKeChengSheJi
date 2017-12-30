@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+
+    <filter>
+        <filter-name>MsgFilter</filter-name>
+        <filter-class>MsgFilter</filter-class>
+    </filter>
+    <filter-mapping>
+        <filter-name>MsgFilter</filter-name>
+        <url-pattern>/msg/*</url-pattern>
+    </filter-mapping>
+    <filter-mapping>
+        <filter-name>MsgFilter</filter-name>
+        <url-pattern>/Msg</url-pattern>
+    </filter-mapping>
+
+    <servlet>
+        <servlet-name>Msg</servlet-name>
+        <servlet-class>Msg</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Msg</servlet-name>
+        <url-pattern>/Msg</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Delete</servlet-name>
+        <servlet-class>Delete</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Delete</servlet-name>
+        <url-pattern>/Delete</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>StringUploadServlet</servlet-name>
+        <servlet-class>StringUploadServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>StringUploadServlet</servlet-name>
+        <url-pattern>/StringUploadServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>RegisterServlet</servlet-name>
+        <servlet-class>RegisterServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>RegisterServlet</servlet-name>
+        <url-pattern>/servlet/RegisterServlet</url-pattern>
+        <url-pattern>/RegisterServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>LoginServlet</servlet-name>
+        <servlet-class>LoginServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>LoginServlet</servlet-name>
+        <url-pattern>/servlet/LoginServlet</url-pattern>
+        <url-pattern>/LoginServlet</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>jump</servlet-name>
+        <servlet-class>jump</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>jump</servlet-name>
+        <url-pattern>/jump</url-pattern>
+    </servlet-mapping>
+
+
+
+
+
+    <servlet>
+        <servlet-name>UploadHandleServlet</servlet-name>
+        <servlet-class>UploadHandleServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>UploadHandleServlet</servlet-name>
+        <url-pattern>/servlet/UploadHandleServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ListFileServlet</servlet-name>
+        <servlet-class>ListFileServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>ListFileServlet</servlet-name>
+        <url-pattern>/servlet/ListFileServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ListFileServletS</servlet-name>
+        <servlet-class>ListFileServletS</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>ListFileServletS</servlet-name>
+        <url-pattern>/servlet/ListFileServletS</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ShowPdfServlet</servlet-name>
+        <servlet-class>ShowPdfServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>ShowPdfServlet</servlet-name>
+        <url-pattern>/servlet/ShowPdfServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>DownloadServlet</servlet-name>
+        <servlet-class>DownloadServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>DownloadServlet</servlet-name>
+        <url-pattern>/servlet/DownloadServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>download</servlet-name>
+        <servlet-class>download</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>download</servlet-name>
+        <url-pattern>/DownloadServlet</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>listfile</servlet-name>
+        <servlet-class>listfile</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>listfile</servlet-name>
+        <url-pattern>/ListFileServlet</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>listfileS</servlet-name>
+        <servlet-class>listfileS</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>listfileS</servlet-name>
+        <url-pattern>/ListFileServletS</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>uploadhandle</servlet-name>
+        <servlet-class>uploadhandle</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>uploadhandle</servlet-name>
+        <url-pattern>/UpLoadHandleServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>WriteServlet</servlet-name>
+        <servlet-class>WriteServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>WriteServlet</servlet-name>
+        <url-pattern>/WriteServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ListBasicServlet</servlet-name>
+        <servlet-class>ListBasicServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ListBasicServlet</servlet-name>
+        <url-pattern>/ListBasicServlet</url-pattern>
+    </servlet-mapping>
+
+</web-app>

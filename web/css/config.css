@@ -1,0 +1,356 @@
+﻿body{font-size:12px;}
+
+#page1_jHtmlForm1_form{
+  position:absolute;
+  left: 69px;
+  top: 110px;
+  width: 473px;
+  height: 334px;
+}
+
+#page1_jLabel5{
+  left: 102px;
+  top: 89px;
+  font-size: 18px;
+  font-family: "微软雅黑";
+  font-weight: bold;
+  color: #505050;
+  line-height: 20px;
+}
+
+#page1_jLabel6{
+  left: 174px;
+  top: 94px;
+  font-size: 14px;
+  color: #505050;
+  line-height: 16px;
+}
+
+#page1_jLabel2{
+  left: 31px;
+  top: 16px;
+  font-size: 14px;
+  color: #ffffff;
+  line-height: 16px;
+}
+
+#page1_jEdit1{
+  left: 125px;
+  top: 10px;
+  width:242px;
+  height:20px;
+}
+
+#page1_jLabel7{
+  left: 29px;
+  top: 17px;
+  font-size: 14px;
+  color: #ffffff;
+  line-height: 16px;
+}
+
+#page1_jEdit2{
+  left: 125px;
+  top: 11px;
+  width:242px;
+  height:20px;
+}
+
+#page1_jLabel1{
+  left: 26px;
+  top: 16px;
+  font-size: 14px;
+  color: #ffffff;
+  line-height: 16px;
+}
+
+#page1_jPanel1{
+  top: 144px;
+  height: 482px;
+  width: 590px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  background: url(../images/jloginbox03.png) no-repeat;
+}
+
+#page1_jPanel5{
+  top: -378px;
+  height: 100px;
+  width: 589px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#page1_jImages1{
+  left: 4px;
+  top: 4px;
+  height: 45px;
+  width: 45px;
+}
+
+#page1_jLabel3{
+  left: 55px;
+  top: 14px;
+  font-size: 24px;
+  font-weight: bold;
+  color: #3f3f3f;
+  line-height: 26px;
+}
+
+#page1_jLabel4{
+  left: 351px;
+  top: 21px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #3f3f3f;
+  line-height: 22px;
+}
+
+#page1_jLabel8{
+  left: 29px;
+  top: 17px;
+  font-size: 14px;
+  color: #ffffff;
+  line-height: 16px;
+}
+
+#page1_jEdit3{
+  left: 125px;
+  top: 11px;
+  width:242px;
+  height:20px;
+}
+
+#page1_jPanel7{
+  left: 0px;
+  top: 60px;
+  height: 48px;
+  width: 394px;
+  background: #33393f;
+}
+
+#page1_jPanel6{
+  left: 0px;
+  top: 51px;
+  height: 48px;
+  width: 394px;
+  background: #33393f;
+}
+
+#page1_jLabel9{
+  left: 29px;
+  top: 17px;
+  font-size: 14px;
+  color: #ffffff;
+  line-height: 16px;
+}
+
+#page1_jEdit4{
+  left: 125px;
+  top: 11px;
+  width:242px;
+  height:20px;
+}
+
+#page1_jLabel10{
+  left: 29px;
+  top: 17px;
+  font-size: 14px;
+  color: #ffffff;
+  line-height: 16px;
+}
+
+#page1_jEdit5{
+  left: 125px;
+  top: 11px;
+  width:242px;
+  height:20px;
+}
+
+#page1_jPanel8{
+  left: 0px;
+  top: 51px;
+  height: 48px;
+  width: 394px;
+  background: #33393f;
+}
+
+#page1_jLabel11{
+  left: 31px;
+  top: 16px;
+  font-size: 14px;
+  font-family: "@Malgun Gothic";
+  color: #ffffff;
+  line-height: 16px;
+}
+
+#page1_jEdit6{
+  left: 125px;
+  top: 10px;
+  width:242px;
+  height:20px;
+}
+
+#page1_jPanel9{
+  left: 41px;
+  top: 11px;
+  height: 49px;
+  width: 394px;
+  background: #33393f;
+}
+
+#page1_jPanel2{
+  left: 42px;
+  top: 70px;
+  height: 48px;
+  width: 394px;
+  background: #33393f;
+}
+
+#page1_jPanel3{
+  left: 42px;
+  top: 129px;
+  height: 48px;
+  width: 394px;
+  background: #33393f;
+}
+
+#page1_jPanel4{
+  left: 44px;
+  top: 187px;
+  height: 48px;
+  width: 394px;
+  background: #33393f;
+}
+
+#page1_jButton2{
+  left: 195px;
+  top: 246px;
+  width:79px;
+  height:20px;
+}
+
+#page1_jComboBox1{
+  left: 126px;
+  top: 18px;
+  height: 20px;
+  width: 247px;
+  position:absolute;
+}
+
+#page3_jPanel1{
+  top: 211px;
+  height: 393px;
+  width: 590px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  background: url(../images/jloginbox03.png) no-repeat;
+}
+
+#page3_jHtmlForm1_form{
+  position:absolute;
+  left: 69px;
+  top: 121px;
+  width: 473px;
+  height: 252px;
+}
+
+#page3_jLabel5{
+  left: 102px;
+  top: 89px;
+  font-size: 18px;
+  font-family: "微软雅黑";
+  font-weight: bold;
+  color: #505050;
+  line-height: 20px;
+}
+
+#page3_jLabel6{
+  left: 174px;
+  top: 94px;
+  font-size: 14px;
+  color: #505050;
+  line-height: 16px;
+}
+
+#page3_jLabel2{
+  left: 31px;
+  top: 16px;
+  font-size: 14px;
+  color: #ffffff;
+  line-height: 16px;
+}
+
+#page3_jEdit1{
+  left: 125px;
+  top: 10px;
+  width:242px;
+  height:20px;
+}
+
+#page3_jLabel7{
+  left: 29px;
+  top: 17px;
+  font-size: 14px;
+  color: #ffffff;
+  line-height: 16px;
+}
+
+#page3_jEdit2{
+  left: 125px;
+  top: 11px;
+  width:242px;
+  height:20px;
+}
+
+#page3_jPanel5{
+  top: -187px;
+  height: 62px;
+  width: 589px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#page3_jLabel3{
+  left: 51px;
+  top: 20px;
+  font-size: 24px;
+  font-weight: bold;
+  color: #3f3f3f;
+  line-height: 26px;
+}
+
+#page3_jImages1{
+  left: 4px;
+  top: 4px;
+  height: 45px;
+  width: 45px;
+}
+
+#page3_jPanel2{
+  left: 35px;
+  top: 25px;
+  height: 48px;
+  width: 394px;
+  background: #33393f;
+}
+
+#page3_jPanel3{
+  left: 36px;
+  top: 107px;
+  height: 48px;
+  width: 394px;
+  background: #33393f;
+}
+
+#page3_jButton1{
+  left: 179px;
+  top: 192px;
+  width:79px;
+  height:20px;
+}
+
